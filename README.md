@@ -109,3 +109,6 @@ MongoDB:
 
 ### Taif Alsahli
 ### Reem Aljasser
+
+### Here you can see the presentation slides for the project
+[click here](https://www.canva.com/design/DAGFzMj6BZY/xnl3aT1y5WWTSND9mIvoRw/edit?utm_content=DAGFzMj6BZY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
