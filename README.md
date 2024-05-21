@@ -56,31 +56,37 @@ http://localhost:8000/index
 
 ### technologies used, its goals
 
-- HTML (HyperText Markup Language):
+- HTML:
+Description: HTML is used for creating the structure and content of web pages.
+Goals: The goal of using HTML is to provide a standardized markup language for structuring web pages, ensuring compatibility and accessibility across different browsers and devices.
 
-Goal: HTML is used for structuring the content of web pages, providing a framework for presenting text, images, and multimedia. It forms the foundation of the website's layout and organization.
+-CSS:
+Description: CSS is used for styling the visual presentation of HTML elements.
+Goals: The goal of using CSS is to enhance the appearance and layout of web pages, ensuring a consistent and visually appealing user experience.
 
+-JavaScript (JS):
+Description: JavaScript is a programming language used for adding interactivity and dynamic behavior to web pages.
+Goals: The goal of using JavaScript is to enhance user interaction, create dynamic content, and add functionality such as form validation and animations to the website.
 
--CSS (Cascading Style Sheets):
+-MongoDB:
+Description: MongoDB is a NoSQL database used for storing and managing data.
+Goals: The goal of using MongoDB is to provide a flexible and scalable database solution, allowing for efficient storage and retrieval of data in a schema-less format.
 
-Goal: CSS is employed to style the HTML elements, controlling their appearance, layout, and design. It enhances the visual presentation of the website, ensuring consistency and aesthetics across different devices.
+-Express:
+Description: Express is a web application framework for Node.js used for building server-side applications and APIs.
+Goals: The goal of using Express is to streamline the development of web applications by providing a minimalist and flexible framework for routing, middleware, and handling HTTP requests and responses.
 
-
-- JavaScript (JS):
-
-Goal: JavaScript adds interactivity and dynamic behavior to web pages, enabling features such as animations, form validation, and responsive functionality. It enhances user engagement and interaction with the website.
-
-
-- MongoDB:
-
-Goal: MongoDB is a NoSQL database used for storing and managing data in a flexible, scalable manner. It enables efficient data storage and retrieval, supporting the website's backend functionality and ensuring seamless data management.
+-Node.js:
+Description: Node.js is a JavaScript runtime environment used for executing server-side JavaScript code.
+Goals: The goal of using Node.js is to enable server-side programming using JavaScript, allowing for the development of fast and scalable network applications.
 
 ## screenshots
 Here are some screenshots for our website.
 
 ## futureWork
 
-We aspire to activate direct banking transactions in the future
+We aspire to activate direct banking transactions in the future. We aspire to improve the user interface and make its appearance better.
+
 ![image](https://github.com/TaifSahli/Website/assets/163606855/f63893ec-c172-4303-bf3b-1f9a8f25c2f6)
 
 
