@@ -9,6 +9,7 @@
 - [setup](#setup)
 - [technologies](#technologies)
 - [screenshots](#screenshots)
+- [future work](#futureWork)
 - [resources](#resources)
 - [team members](#teamMembers)
 
@@ -20,7 +21,7 @@ Clean Bubble's website is interested in simplifying your laundry experience and 
 ## useCase
 
 This is the use case diagram for our project.
-![image](https://github.com/TaifSahli/Website/assets/163606855/09cf9e6b-42b1-49cb-8324-2f714f0878be)
+![image](https://github.com/TaifSahli/Website/assets/163606855/86a4f402-6838-443b-bbbc-d97134adeaca)
 
 
 ## setup
@@ -77,6 +78,12 @@ Goal: MongoDB is a NoSQL database used for storing and managing data in a flexib
 ## screenshots
 Here are some screenshots for our website.
 
+## futureWork
+
+We aspire to activate direct banking transactions in the future
+![image](https://github.com/TaifSahli/Website/assets/163606855/f63893ec-c172-4303-bf3b-1f9a8f25c2f6)
+
+
 ## resources
 
 HTML (HyperText Markup Language):
@@ -94,6 +101,5 @@ MongoDB:
 
 ## teamMembers
 
-### Taif
-### Taif
-### Taif
+### Taif Alsahli
+### Reem Aljasser
