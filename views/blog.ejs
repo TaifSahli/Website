@@ -1,0 +1,207 @@
+<%- contentFor('HeaderCss') %>
+
+<%- contentFor('body') %>
+
+<main>
+    <div class="blog-author">
+        <div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
+            <img src="assets/assets/img/blog/author.png" alt="" height="400px" width="400px">
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="hero-cap text-center">
+                    <h1>السلة الخاصة بك</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="cart_area section_padding">
+        <div class="container">
+            <div class="cart_inner">
+                <div class="table-responsive">
+                    <% if (error_msg && error_msg.length > 0) { %>
+                        <div class="alert alert-danger" role="alert">
+                            <%= error_msg %>
+                        </div>
+                    <% } %>
+                    <% if (success_msg && success_msg.length > 0) { %>
+                        <div class="alert alert-success" role="alert">
+                            <%= success_msg %>
+                        </div>
+                    <% } %>
+                    <form action="/save-blog" method="post">
+                        <table class="table" id="cartTable">
+                            <thead>
+                                <tr>
+                                    <th scope="col">حجم الكيس</th>
+                                    <th scope="col">السعر</th>
+                                    <th scope="col">العدد</th>
+                                    <th scope="col">المجموع</th>
+                                    <th scope="col">العنصر</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <h2>الكيس الصغير</h2>
+                                        <input type="hidden" name="bagSize[]" value="الكيس الصغير">
+                                    </td>
+                                    <td>
+                                        <h2 class="price">600</h2>
+                                        <input type="hidden" name="price[]" value="600">
+                                    </td>
+                                    <td>
+                                        <div class="product_count">
+                                            <input type="number" name="quantity[]" min="0" max="100" step="1" value="0" class="quantity" oninput="calculateTotals()">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <h2 class="total">600</h2>
+                                    </td>
+                                    <td>
+                                        <div class="shipping_box">
+                                            <ul class="list">
+                                                <li>
+                                                    <label>
+                                                        <input type="radio" name="item[0]" value="daily_clothes">
+                                                        الملابس اليومية
+                                                    </label>
+                                                </li>
+                                                <li>
+                                                    <label>
+                                                        <input type="radio" name="item[0]" value="formal_clothes">
+                                                        الملابس الرسمية
+                                                    </label>
+                                                </li>
+                                                <li>
+                                                    <label>
+                                                        <input type="radio" name="item[0]" value="home_textiles">
+                                                        الأقمشة المنزلية
+                                                    </label>
+                                                </li>
+                                                <li>
+                                                    <label>
+                                                        <input type="radio" name="item[0]" value="shoes">
+                                                        الأحذية
+                                                    </label>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <h2>الكيس الكبير</h2>
+                                        <input type="hidden" name="bagSize[]" value="الكيس الكبير">
+                                    </td>
+                                    <td>
+                                        <h2 class="price">1200</h2>
+                                        <input type="hidden" name="price[]" value="1200">
+                                    </td>
+                                    <td>
+                                        <div class="product_count">
+                                            <input type="number" name="quantity[]" min="0" max="100" step="1" value="0" class="quantity" oninput="calculateTotals()">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <h2 class="total">1200</h2>
+                                    </td>
+                                    <td>
+                                        <div class="shipping_box">
+                                            <ul class="list">
+                                                <li>
+                                                    <label>
+                                                        <input type="radio" name="item[1]" value="daily_clothes">
+                                                        الملابس اليومية
+                                                    </label>
+                                                </li>
+                                                <li>
+                                                    <label>
+                                                        <input type="radio" name="item[1]" value="formal_clothes">
+                                                        الملابس الرسمية
+                                                    </label>
+                                                </li>
+                                                <li>
+                                                    <label>
+                                                        <input type="radio" name="item[1]" value="home_textiles">
+                                                        الأقمشة المنزلية
+                                                    </label>
+                                                </li>
+                                                <li>
+                                                    <label>
+                                                        <input type="radio" name="item[1]" value="shoes">
+                                                        الأحذية
+                                                    </label>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td>
+                                        <h2>المبلغ الاجمالي</h2>
+                                    </td>
+                                    <td>
+                                        <h2 id="grandTotal">1800</h2>
+                                    </td>
+                                </tr>
+                                <tr class="button-group-area">
+                                    <td rowspan="2">
+                                        <a href="/index" class="genric-btn info">اكمل التسوق</a>
+                                        <button type="submit" class="genric-btn info" id="paymentButton">الدفع</button>
+                                    </td>
+                                </tr>
+<tr id="paymentMethodRow" style="display: none;">
+    <td>
+        <img src="assets/assets/img/blog/pay.jpg" alt="Payment Method" id="paymentMethodImage" style="max-width: 100%; height: auto;">
+    </td>
+</tr>
+                                <!-- Payment method image, initially hidden -->
+
+
+
+                            </tbody>
+                        </table>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<%- contentFor('FooterJs') %>
+
+<script>
+function calculateTotals() {
+    const rows = document.querySelectorAll('#cartTable tbody tr');
+    let grandTotal = 0;
+    
+    rows.forEach(row => {
+        const priceElement = row.querySelector('.price');
+        const quantityElement = row.querySelector('.quantity');
+        const totalElement = row.querySelector('.total');
+        
+        if (priceElement && quantityElement && totalElement) {
+            const price = parseFloat(priceElement.textContent);
+            const quantity = parseInt(quantityElement.value);
+            const total = price * quantity;
+            
+            totalElement.textContent = total;
+            grandTotal += total;
+        }
+    });
+    
+    document.getElementById('grandTotal').textContent = grandTotal;
+}
+
+// Initial calculation on page load
+calculateTotals();
+
+
+</script>

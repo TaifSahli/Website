@@ -1,0 +1,26 @@
+
+<%- contentFor('HeaderCss') %>
+  <%- include("../partials/title-meta", { title: "Login" }) %>
+  <link rel="stylesheet" href="assets/login/css/test.css">
+
+  <%- contentFor('body') %>
+  <div class="container">
+    <input type="checkbox" id="check">
+    <div class="login form">
+      <header>!اهلا بك</header>
+      <form action="/auth-validate" method="post">
+        <input type="text" name="email" required placeholder="البريد الالكتروني">
+        <input type="password" name="password" required placeholder="كلمة السر">
+        
+        <input type="submit" class="button" value="سجل">
+      </form>
+      <div class="signup">
+        <span class="signup">ليس لديك حساب ؟
+         <label for="check"><a href="/register">أنشئ حسابك</a></label>
+      
+        </span>
+      </div>
+    </div>
+  </div>
+  <!-- <script src="assets/login/js/test.js"></script> -->
+  <%- contentFor('FooterJs') %>

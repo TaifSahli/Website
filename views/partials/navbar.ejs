@@ -1,0 +1,72 @@
+<!-- ? Preloader Start -->
+<div id="preloader-active">
+    <div class="preloader d-flex align-items-center justify-content-center">
+        <div class="preloader-inner position-relative">
+            <div class="preloader-circle"></div>
+            <div class="preloader-img pere-text">
+                <img src="assets/assets/img/logo/loder.png" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Preloader Start -->
+<header>
+    <!-- Header Start -->
+    <div class="header-area">
+        <div class="main-header header-sticky">
+            <!-- Logo -->
+            <div class="header-left">
+                <div class="logo" style="text-align: center;">
+                    <a href="/index"><img src="assets/assets/img/logo/logo.jpg" alt="Logo" height="110px"width="180px"></a>
+                </div>
+                
+            
+                <div class="menu-wrapper  d-flex align-items-center">
+                    <!-- Main-menu -->
+                    <div class="main-menu d-none d-lg-block">
+                        
+                        <nav>
+                            <ul id="navigation">
+                                <li class="<%= currentRoute === 'index' ? 'active' : '' %>"><a href="/index">الرئيسية</a></li>
+                                <li class="<%= currentRoute === 'about' ? 'active' : '' %>"><a href="/about">من نحن؟</a></li>
+                                <li class="<%= currentRoute === 'services' ? 'active' : '' %>"><a href="/services">خدماتنا</a></li>
+                                <% if (isAuth) { %>
+                                    <li class="<%= currentRoute === 'blog' ? 'active' : '' %>"><a href="/blog">الباقات</a></li>
+                                    <li class="<%= currentRoute === 'contact' ? 'active' : '' %>"><a href="/contact">للشكاوي والاقتراحات</a></li>
+                                <% } %>
+                            </ul>
+                        </nav>
+                        
+                        
+                    </div>
+                </div>
+            </div> 
+            <div class="header-right d-none d-lg-block">
+                <% if (isAuth) { %>
+                    <ul>
+                        <li class="welcome-text">
+                   ! مرحبا بك
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="/logout">
+                                <i class="mdi mdi-logout text-muted fs-16 align-middle me-1"></i>
+                                <span class="align-middle" data-key="t-logout">تسجيل الخروج</span>
+                            </a>
+                        </li>
+                    </ul>
+                <% } else { %>
+                    <a href="/login" class="header-btn3">دخول</a>
+                    <a href="/register" class="header-btn1">تسجيل الدخول</a>
+                <% } %>
+            </div>
+            
+            
+            <!-- Mobile Menu -->
+            <div class="col-12">
+                <div class="mobile_menu d-block d-lg-none"></div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+</header>

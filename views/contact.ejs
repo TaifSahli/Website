@@ -1,0 +1,80 @@
+<%- contentFor('HeaderCss') %>
+<%- contentFor('body') %>
+
+<main>
+    <section>
+        <div class="container">
+            <div class="d-none d-sm-block mb-5 pb-4">
+                <div class="row">
+                    <img src="assets/assets/img/hero/hero0.jpg" alt="" height="400px" width="500px" style="display: block; margin: auto;">
+                    <div class="col-12">
+                        <h2 class="contact-title">ابق على تواصل</h2>
+                    </div>
+                    <div class="col-lg-8">
+                        <% if (error_msg && error_msg.length > 0) { %>
+                            <div class="alert alert-danger" role="alert">
+                                <%= error_msg %>
+                            </div>
+                        <% } %>
+                        <% if (success_msg && success_msg.length > 0) { %>
+                            <div class="alert alert-success" role="alert">
+                                <%= success_msg %>
+                            </div>
+                        <% } %>
+                        <form class="form-contact contact_form" action="/sava-contact" method="post" novalidate="novalidate">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <textarea class="form-control w-100" name="message" id="message" cols="30" rows="9" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Message'" placeholder=" ادخل رسالتك"></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <input class="form-control valid" name="name" id="name" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'" placeholder="ادخل اسمك">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <input class="form-control valid" name="email" id="email" type="email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" placeholder="ادخل ايميلك">
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <input class="form-control" name="subject" id="subject" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Subject'" placeholder="ادخل عنوان ">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group mt-3">
+                                <button type="submit" class="button button-contactForm boxed-btn">ارسال</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-lg-3 offset-lg-1">
+                        <div class="media contact-info">
+                            <span class="contact-info__icon"><i class="ti-home"></i></span>
+                            <div class="media-body">
+                                <h3> المملكة العربية السعودية,الرياض</h3>
+                            </div>
+                        </div>
+                        <div class="media contact-info">
+                            <span class="contact-info__icon"><i class="ti-tablet"></i></span>
+                            <div class="media-body">
+                                <h3>+966 50 558 8900</h3>
+                                <h2>من السبت الى الخميس</h2>
+                            </div>
+                        </div>
+                        <div class="media contact-info">
+                            <span class="contact-info__icon"><i class="ti-email"></i></span>
+                            <div class="media-body">
+                                <h3><a href="mailto:cleanbubbles.com"> cleanbubbles@hotmail.com </a></h3>
+                                <h2>ان احتجتنا.. ترانا هنا </h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<%- contentFor('FooterJs') %>
