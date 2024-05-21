@@ -56,27 +56,27 @@ http://localhost:8000/index
 
 ### technologies used, its goals
 
-- HTML:
+- HTML : 
 Description: HTML is used for creating the structure and content of web pages.
 Goals: The goal of using HTML is to provide a standardized markup language for structuring web pages, ensuring compatibility and accessibility across different browsers and devices.
 
--CSS:
+- CSS : 
 Description: CSS is used for styling the visual presentation of HTML elements.
 Goals: The goal of using CSS is to enhance the appearance and layout of web pages, ensuring a consistent and visually appealing user experience.
 
--JavaScript (JS):
+- JavaScript (JS) : 
 Description: JavaScript is a programming language used for adding interactivity and dynamic behavior to web pages.
 Goals: The goal of using JavaScript is to enhance user interaction, create dynamic content, and add functionality such as form validation and animations to the website.
 
--MongoDB:
+- MongoDB : 
 Description: MongoDB is a NoSQL database used for storing and managing data.
 Goals: The goal of using MongoDB is to provide a flexible and scalable database solution, allowing for efficient storage and retrieval of data in a schema-less format.
 
--Express:
+- Express : 
 Description: Express is a web application framework for Node.js used for building server-side applications and APIs.
 Goals: The goal of using Express is to streamline the development of web applications by providing a minimalist and flexible framework for routing, middleware, and handling HTTP requests and responses.
 
--Node.js:
+- Node.js : 
 Description: Node.js is a JavaScript runtime environment used for executing server-side JavaScript code.
 Goals: The goal of using Node.js is to enable server-side programming using JavaScript, allowing for the development of fast and scalable network applications.
 
