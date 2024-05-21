@@ -5,19 +5,19 @@
 ## Table of Contents
 
 - [Overview](#Overview)
-- [use case](#use case)
+- [use case](#useCase)
 - [setup](#setup)
 - [technologies](#technologies)
 - [screenshots](#screenshots)
 - [resources](#resources)
-- [team members](#team members)
+- [team members](#teamMembers)
 
 ## Overview
 
 Clean Bubble's website is interested in simplifying your laundry experience and providing the convenience of delivering your clothes to your home through our mobile carts. We guarantee smooth receipt and delivery of your clothes from anywhere throughout the Kingdom of Saudi Arabia, regardless of where you are, whether, in Busy cities or remote areas, our mobile vans are ready to reach you, making laundry care a breeze. 
 
 
-## use case
+## useCase
 
 This is the use case diagram for our project.
 ![image](https://github.com/TaifSahli/Website/assets/163606855/09cf9e6b-42b1-49cb-8324-2f714f0878be)
@@ -92,7 +92,7 @@ MongoDB:
 [MongoDB Documentation](https://docs.mongodb.com/)
 
 
-## team members
+## teamMembers
 
 ### Taif
 ### Taif
