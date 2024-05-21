@@ -85,7 +85,15 @@ Here are some screenshots for our website.
 
 ## futureWork
 
-We aspire to activate direct banking transactions in the future. We aspire to improve the user interface and make its appearance better.
+Clean Bubbles has a vision to enhance its services and expand its offerings continuously. In the future, the company aspires to activate direct banking transactions, allowing customers to conveniently make payments and manage financial transactions directly through the website.
+
+To provide more flexibility and value to customers, Clean Bubbles plans to introduce monthly and daily packages. These packages will offer different pricing options and benefits, catering to the diverse needs and preferences of the users. Customers will have the option to choose a package that best suits their laundry requirements and frequency.
+
+Recognizing the importance of user experience, Clean Bubbles is committed to improving the user interface of their website. we aim to create a visually attractive and user-friendly interface that enhances the overall browsing and interaction experience for customers. By implementing intuitive design elements, streamlined navigation, and responsive layouts, Clean Bubbles seeks to make the website more visually engaging and easier to use.
+
+The ultimate measure of success for Clean Bubbles is to reach the global level. we aspire to expand our services and establish a strong presence beyond the Kingdom of Saudi Arabia, catering to customers worldwide. By providing reliable and convenient laundry services, along with ongoing improvements and innovations, Clean Bubbles aims to position itself as a leading player in the global laundry industry.
+
+Clean Bubbles' commitment to activating direct banking transactions, introducing additional packages, improving the user interface, and aspiring to reach the global level demonstrates our dedication to enhancing customer satisfaction, expanding our business, and staying at the forefront of the industry.
 
 ![image](https://github.com/TaifSahli/Website/assets/163606855/f63893ec-c172-4303-bf3b-1f9a8f25c2f6)
 
