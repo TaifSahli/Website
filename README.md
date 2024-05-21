@@ -83,6 +83,31 @@ Goals: The goal of using Node.js is to enable server-side programming using Java
 ## screenshots
 Here are some screenshots for our website.
 
+![image](https://github.com/TaifSahli/Website/assets/163606855/7aa93300-bf71-4a4d-a6ca-f67306775b6d)
+
+![image](https://github.com/TaifSahli/Website/assets/163606855/25b7f876-3b37-451f-b7d1-a94b706585c7)
+
+![image](https://github.com/TaifSahli/Website/assets/163606855/27503144-1076-4c23-a74f-48f6407199ef)
+
+![image](https://github.com/TaifSahli/Website/assets/163606855/346fe438-0e9c-4958-8dd4-711d2c2433b1)
+
+![image](https://github.com/TaifSahli/Website/assets/163606855/5806aac9-45ef-48b9-b4af-4c0ea25b06cd)
+
+![image](https://github.com/TaifSahli/Website/assets/163606855/68319144-800b-4be4-8795-ad116dda1d64)
+
+![image](https://github.com/TaifSahli/Website/assets/163606855/f350a05f-2588-4f63-8114-91b1b8933ef1)
+
+![image](https://github.com/TaifSahli/Website/assets/163606855/97586fdb-b99f-4a7b-8566-226e729e00c7)
+
+![image](https://github.com/TaifSahli/Website/assets/163606855/1409e661-3845-427d-af4e-f3d69f39a21a)
+
+![image](https://github.com/TaifSahli/Website/assets/163606855/a6ab0d2f-96f6-4d25-b7a5-8d4add43396a)
+
+![image](https://github.com/TaifSahli/Website/assets/163606855/6cbbf92f-33f3-4a4b-904e-b37b0f9d78ad)
+
+
+
+
 ## futureWork
 
 Clean Bubbles has a vision to enhance its services and expand its offerings continuously. In the future, the company aspires to activate direct banking transactions, allowing customers to conveniently make payments and manage financial transactions directly through the website.
