@@ -117,9 +117,9 @@ Here are some screenshots for our website.
 
 ![image](https://github.com/TaifSahli/Website/assets/163606855/7aa93300-bf71-4a4d-a6ca-f67306775b6d)
 
-![image](https://github.com/TaifSahli/Website/assets/163606855/25b7f876-3b37-451f-b7d1-a94b706585c7)
+![chrome_JuXMGuIm0d](https://github.com/TaifSahli/Website/assets/163606855/9902b461-41b0-4c55-9b50-0eab34216d84)
 
-![image](https://github.com/TaifSahli/Website/assets/163606855/27503144-1076-4c23-a74f-48f6407199ef)
+![chrome_gzOC09LS0A](https://github.com/TaifSahli/Website/assets/163606855/f57eb538-c472-4f66-82b7-f3374b40ec68)
 
 ![image](https://github.com/TaifSahli/Website/assets/163606855/346fe438-0e9c-4958-8dd4-711d2c2433b1)
 
