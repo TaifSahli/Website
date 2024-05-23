@@ -83,7 +83,8 @@ Goals: The goal of using Node.js is to enable server-side programming using Java
 
 
 
-## Project golas
+### Project golas
+##golas
 
  The project goals for the Clean Bubbles website appear to be:
 
