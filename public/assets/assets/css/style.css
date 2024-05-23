@@ -262,7 +262,9 @@ h6 a {
 
 ul {
     margin: 0px;
-    padding: 0px
+    padding: 0px;
+
+
 }
 
 li {
@@ -5242,11 +5244,22 @@ hr {
     font-size: 16px;
     margin-bottom: 0;
     font-size: 16px;
-    color: #2a2a2a
+    color: #2a2a2a;
+    padding-left: 38%;
+
+}
+
+.contact-info .media-body h2 {
+    font-size: 16px;
+    margin-bottom: 0;
+    font-size: 16px;
+    color: #2e207d;
+    padding-left: 38%;
+
 }
 
 .contact-info .media-body h3 a:hover {
-    color: #140C40
+    color: #140C40;
 }
 
 .contact-info .media-body p {
@@ -5256,7 +5269,9 @@ hr {
 .contact-title {
     font-size: 27px;
     font-weight: 600;
-    margin-bottom: 20px
+    margin-bottom: 20px;
+    padding-left: 90%;
+
 }
 
 .form-contact label {
@@ -6752,7 +6767,8 @@ del {
 
 
 .widget_title {
-    font-size: 1.8em; /* Adjust the font size */
+    font-size: 1.8em;
+    /* Adjust the font size */
     color: #2d2d2d;
     margin-bottom: 20px;
     text-align: center;
@@ -6760,64 +6776,274 @@ del {
 
 .newsletter_widget .form-group {
     margin-bottom: 20px;
+
 }
 
 .newsletter_widget .form-control {
-    font-size: 1.2em; /* Adjust the font size */
-    padding: 15px; /* Increase the padding */
-    border: 2px solid #ddd; /* Increase the border size */
-    border-radius: 5px; /* Add rounded corners */
+    font-size: 1.2em;
+    /* Adjust the font size */
+    padding: 15px;
+    /* Increase the padding */
+    border: 2px solid #ddd;
+    /* Increase the border size */
+    border-radius: 5px;
+    /* Add rounded corners */
     width: 100%;
     box-sizing: border-box;
 }
 
 .newsletter_widget .form-control:focus {
-    border-color: #007bff; /* Change the border color on focus */
-    box-shadow: none; /* Remove the default focus shadow */
+    border-color: #007bff;
+    /* Change the border color on focus */
+    box-shadow: none;
+    /* Remove the default focus shadow */
 }
 
 
 
 .newsletter_widget .btn_1:hover {
-    background-color: #0056b3; /* Change the background color on hover */
+    background-color: #0056b3;
+    /* Change the background color on hover */
 }
+
 .welcome-text {
-    font-size: 1.5em; /* Adjust the font size as needed */
-    color: #007bff; /* Change to the desired color */
-    font-weight: bold; /* Make the text bold */
-    padding: 10px; /* Add some padding */
-    background-color: #f8f9fa; /* Optional: Add a background color */
-    border-radius: 5px; /* Optional: Add rounded corners */
-    margin-right: 10px; /* Adjust the spacing as needed */
+    font-size: 1.5em;
+    /* Adjust the font size as needed */
+    color: #007bff;
+    /* Change to the desired color */
+    font-weight: bold;
+    /* Make the text bold */
+    padding: 10px;
+    /* Add some padding */
+    background-color: #f8f9fa;
+    /* Optional: Add a background color */
+    border-radius: 5px;
+    /* Optional: Add rounded corners */
+    margin-right: 10px;
+    /* Adjust the spacing as needed */
 }
-.dropdown-item{
-    font-size: 1.5em; /* Adjust the font size as needed */
-    color: #007bff; /* Change to the desired color */
-    font-weight: bold; /* Make the text bold */
-    padding: 10px; /* Add some padding */
-    background-color: #f8f9fa; /* Optional: Add a background color */
-    border-radius: 5px; /* Optional: Add rounded corners */
-    margin-right: 10px; /* Adjust the spacing as needed */
+
+.dropdown-item {
+    font-size: 1.5em;
+    /* Adjust the font size as needed */
+    color: #007bff;
+    /* Change to the desired color */
+    font-weight: bold;
+    /* Make the text bold */
+    padding: 10px;
+    /* Add some padding */
+    background-color: #f8f9fa;
+    /* Optional: Add a background color */
+    border-radius: 5px;
+    /* Optional: Add rounded corners */
+    margin-right: 10px;
+    /* Adjust the spacing as needed */
 }
 
 .table {
     text-align: right;
-    direction: rtl; /* Ensure right-to-left direction */
+    direction: rtl;
+    /* Ensure right-to-left direction */
 }
 
 .table th,
 .table td {
-    text-align: right; /* Align text in table cells to the right */
+    text-align: right;
+    /* Align text in table cells to the right */
 }
 
 .table h2 {
-    margin: 0; /* Optional: Remove any default margin */
+    margin: 0;
+    /* Optional: Remove any default margin */
 }
 
 .table-responsive {
-    overflow-x: auto; /* Ensure table can scroll horizontally */
-    width: 100%; /* Ensure the responsive container takes full width */
-    
+    overflow-x: auto;
+    /* Ensure table can scroll horizontally */
+    width: 100%;
+    /* Ensure the responsive container takes full width */
+
+}
+
+.road {
+    width: 100%;
+    height: 200px;
+    background-color: #ffffff;
+    position: relative;
+
+}
+
+.car {
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    position: absolute;
+    top: calc(30% -40px);
+    left: -120px;
+    animation: drive 5s linear infinite;
+}
+
+@keyframes drive {
+    from {
+        left: -120px;
+    }
+
+    to {
+        left: calc(100% + 120px);
+    }
+}
+
+/* Ratings section */
+.ratings-section {
+    position: absolute;
+    left: 0;
+    top: 19%;
+    transform: translateY(-5%);
+    padding: 250px;
+    padding-right: 0%;
+    z-index: 2;
+
+}
+
+.ratings-content {
+    text-align: right;
+}
+
+.ratings-content h2 {
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.rating {
+    margin-bottom: 15px;
+}
+
+.rating span {
+    font-size: 1.5em;
+    color: #f39c12;
+    /* Star color */
+}
+
+.rating p {
+    margin: 5px 0 0 0;
+    font-size: 1em;
+}
+
+.about-caption,
+.ratings-content {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 25px;
+    box-shadow: 0 0 10px rgba(99, 158, 248, 0.1);
+    text-align: center;
+    border-left: 2px solid #389bf1;
+    /* Add border to the left */
+    border-radius: 10%;
+
 }
 
 
+.road2 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: transparent;
+}
+
+.bubbles {
+    width: 100%;
+    height: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 50%;
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    animation: drive2 5s linear infinite;
+}
+
+@keyframes drive2 {
+    from {
+        bottom: -150px;
+    }
+
+    to {
+        bottom: calc(100% + 150);
+    }
+
+}
+
+
+.single_sidebar_widget {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: flex-end;
+
+}
+
+/* Widget Title */
+.widget_title {
+    color: #2d2d2d;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+/* Form Group */
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* Input Field */
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    font-size: 1em;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.form-control:focus {
+    border-color: #66afe9;
+}
+
+/* Button */
+.button {
+    display: inline-block;
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    border-radius: 30px;
+    background-color: #007bff;
+    color: #ffffff;
+    font-size: 1.1em;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+/* Additional Styles for Responsiveness */
+@media (max-width: 768px) {
+    .single_sidebar_widget {
+        padding: 15px;
+    }
+
+    .widget_title {
+        font-size: 1.3em;
+    }
+
+    .form-control,
+    .button {
+        font-size: 0.9em;
+    }
+}

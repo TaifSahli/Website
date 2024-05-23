@@ -78,7 +78,7 @@ document.addEventListener("DOMContentLoaded", function() {
     event.preventDefault(); // Prevent the default form submission behavior
     
     // Simulate a successful login by displaying a message
-    alert("!تم انشاء حسابك بنجاح ");
+    window.alert("!تم انشاء حسابك بنجاح ");
     // Redirect the user to the linked page
     window.location.href = "index.html";
   });
