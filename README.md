@@ -137,7 +137,9 @@ Here are some screenshots for our website.
 
 ![image](https://github.com/TaifSahli/Website/assets/163606855/6cbbf92f-33f3-4a4b-904e-b37b0f9d78ad)
 
+![image](https://github.com/TaifSahli/Website/assets/163606855/66ce522a-7e6b-4e31-bc63-bfad19d16075)
 
+![image](https://github.com/TaifSahli/Website/assets/163606855/3a85a24e-656d-4d37-9796-5f4396a1b4da)
 
 
 ## futureWork
