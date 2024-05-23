@@ -8,6 +8,7 @@
 - [use case](#useCase)
 - [setup](#setup)
 - [technologies](#technologies)
+- [Project goals](#golas)
 - [screenshots](#screenshots)
 - [future work](#futureWork)
 - [resources](#resources)
@@ -79,6 +80,36 @@ Goals: The goal of using Express is to streamline the development of web applica
 - Node.js : 
 Description: Node.js is a JavaScript runtime environment used for executing server-side JavaScript code.
 Goals: The goal of using Node.js is to enable server-side programming using JavaScript, allowing for the development of fast and scalable network applications.
+
+
+
+## Project golas
+
+ The project goals for the Clean Bubbles website appear to be:
+
+1. Simplify the laundry experience for customers:
+   - Offer a convenient laundry service that delivers clothes to the customer's home.
+   - Provide smooth and reliable pick-up and delivery of clothes, regardless of the customer's location.
+   - Eliminate the hassle of transporting clothes to the dry cleaners.
+
+2. Offer a comprehensive laundry service:
+   - Cater to customers in busy cities as well as remote areas through mobile vans.
+   - Provide a range of laundry services, including dry cleaning, to meet the customers' needs.
+
+3. Enhance the user experience:
+   - Provide a simple and straightforward website navigation for both logged-in and non-logged-in users.
+   - Offer a clear and easy-to-use interface for managing laundry orders, packages, and contact information.
+   - Ensure a seamless and efficient laundry service that allows customers to sit back and relax.
+
+4. Expand the customer base:
+   - Attract both new and existing customers by offering a reliable and convenient laundry solution.
+   - Differentiate the Clean Bubbles service from traditional laundry services.
+
+5. Promote the brand and build customer loyalty:
+   - Establish the Clean Bubbles brand as a trusted and reliable laundry service provider in the Kingdom of Saudi Arabia.
+   - Foster long-term relationships with customers by providing exceptional service and creating a positive brand experience.
+
+The project aims to provide a hassle-free and convenient laundry experience for customers, while also expanding the Clean Bubbles brand and customer base in the region.
 
 ## screenshots
 Here are some screenshots for our website.
