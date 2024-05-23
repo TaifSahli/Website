@@ -8,7 +8,7 @@
 - [use case](#useCase)
 - [setup](#setup)
 - [technologies](#technologies)
-- [Project goals](#golas)
+- [Project goals](#ProjectGoals)
 - [screenshots](#screenshots)
 - [future work](#futureWork)
 - [resources](#resources)
@@ -83,8 +83,8 @@ Goals: The goal of using Node.js is to enable server-side programming using Java
 
 
 
-### Project golas
-##golas
+## ProjectGoals
+
 
  The project goals for the Clean Bubbles website appear to be:
 
